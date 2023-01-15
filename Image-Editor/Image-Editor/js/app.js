@@ -28,7 +28,7 @@ themeSwitch.addEventListener('change', () => {
 		document.getElementById("light").style.display = "block"
 	}
 	else {
-		document.getElementById("dark").style.display = "block"
+		document.getElementById("dark").style.display = "block" 
 		document.getElementById("light").style.display = "none"
 	}
 	isDark = !isDark;
